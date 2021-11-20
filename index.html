@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalkulator</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-</head>
-<body>
-<div class="display">   
-        <p id="output" style="background-color: aliceblue;">0</p>
-    <div class="first-row">
-        <button id="C" style="width: 55px;">C</button>
-        <button id="%">%</button>
-        <button id="/">/</button>
-    </div>
-    <div class="second-row">
-        <button id="7" >7</button>
-        <button id="8" >8</button>
-        <button id="9" >9</button>
-        <button id="x" >X</button>
-    </div>
-    <div class="third-row">
-        <button id="4" >4</button>
-        <button id="5" >5</button>
-        <button id="6" >6</button>
-        <button id="-" >-</button>
-    </div>
-    <div class="fourth-row">
-        <button id="1"  >1</button>
-        <button id="2"  >2</button>
-        <button id="3"  >3</button>
-        <button id="+"  >+</button>
-    </div>
-    <div class="fifth-row"> 
-        <button id="0" style="width: 55px;">0</button>
-        <button id="." >.</button>
-        <button id="=" >=</button>
-    </div>
-</div>
-<script src="script.js"></script>   
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Kalkulator</title>
+		<link rel="stylesheet" href="/src/style.css" type="text/css">
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__container">
+				<div class="header__content">
+					<img class="content__logo" src="src/img/pngwing.png" alt="">
+					<div class="content__text _anim">TWO Unlimited</div>
+				</div>
+			</div>
+		</header>
+		<div class="calc__containier _container">
+			<div class=""></div>
+			<div class="calc__body">
+				<p id="output">0</p>
+				<div class="calc__content">
+					<div class="calc-content__btns">
+						<div id="C" class="content-btns__btn-1">C</div>
+						<div id="%" class="content-btns__btn">%</div>
+						<div id="/" class="content-btns__btn">/</div>
+					</div>
+					<div class="calc-content__btns-1">
+						<div id="7" class="content-btns__btn">7</div>
+						<div id="8" class="content-btns__btn">8</div>
+						<div id="9" class="content-btns__btn">9</div>
+						<div id="✕" class="content-btns__btn">✕</div>
+					</div>
+					<div class="calc-content__btns-1">
+						<div id="4" class="content-btns__btn">4</div>
+						<div id="5" class="content-btns__btn">5</div>
+						<div id="6" class="content-btns__btn">6</div>
+						<div id="−" class="content-btns__btn">−</div>
+					</div>
+					<div class="calc-content__btns-1">
+						<div id="1" class="content-btns__btn">1</div>
+						<div id="2" class="content-btns__btn">2</div>
+						<div id="3" class="content-btns__btn">3</div>
+						<div id="+" class="content-btns__btn">+</div>
+					</div>
+					<div class="calc-content__btns">
+						<div id="0" class="content-btns__btn-1">0</div>
+						<div id="." class="content-btns__btn">.</div>
+						<div id="="class="content-btns__btn">=</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="/src/script.js"></script>
+	</body>
 </html>
-
-
